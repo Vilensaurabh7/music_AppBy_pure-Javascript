@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 100%;
+    font-weight: bolder;
+}
+body{
+    background: linear-gradient(to left, rgba(142, 243, 221, 0.548) , rgb(242, 115, 253) ) right;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 4.375rem;
+   
+}
+.container{
+    width: 23.75rem;
+  padding: 1.5625rem 1.875rem ;
+  overflow: hidden;
+  position: relative;
+  border-radius: .9375rem;
+  background: var(--white);
+  box-shadow: 0rem .375rem .9375rem var(--lightbshadow);
+  border: .125rem solid black;
+  border-inline-start-color: brown ;
+  border-inline-end-color:green ;
+ 
+  /* color: white; */
+}
+.nev-bar{
+    padding: .9375rem;
+    margin: .3125rem;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+#imageC{
+    width: 12.5rem;
+    height: 11.5625rem;
+}
+.img-area img {
+   border-radius: .75rem;
+   padding: .3125rem 0rem;
+   margin: .3125rem;
+}
+.song-details {
+    margin: .9375rem;
+}
+.song-details p {
+    margin: .3125rem;
+    padding: 0.0625rem;;
+    text-transform: uppercase;
+}
+#progress-rang{
+    width: 20rem;
+    margin-top: .5625rem;
+    cursor: pointer;
+}
+.song-timer {
+   display: flex;
+   justify-content: space-between;
+   margin: .125rem;
+   margin-left: .3125rem;
+   
+}
+.play-pause i{
+    padding: .9375rem;
+    cursor: pointer;
+}
+@media (Max-width:970px) {
+    html{
+        font-size: 90%;
+       font-weight: bolder;
+    }
+}
+@media (Max-width:770px) {
+    html{
+        font-size: 80%;
+       font-weight: bolder;
+    }
+}
+@media (Max-width:570px) {
+    html{
+        font-size: 65%;
+       font-weight: bolder;
+    }
+}
